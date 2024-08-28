@@ -1,0 +1,12 @@
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Xcode build products
+build/
+DerivedData/
+
+# Ignore Pods directory
+Pods/
+
+# Ignore user-specific Xcode settings
+xcuserdata/
