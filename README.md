@@ -1,8 +1,7 @@
 # `SwiftLog`
 
 <!--@START_MENU_TOKEN@-->SwiftLog is a lightweight logging SDK designed for iOS applications. It provides a simple API for sending log messages to a remote server.<!--@END_MENU_TOKEN@-->
-
-
+<br>
 <img src="./showcase.gif" alt="Showcase" width="300"/>
 
 ## Overview
