@@ -82,7 +82,6 @@ SwiftLog.saveString("Your log message here") { result in
 1 - Make the script executable
 ```bash
 chmod +x create_xcframework.sh
-./create_xcframework.sh
 ```
 
 2. Run it:
