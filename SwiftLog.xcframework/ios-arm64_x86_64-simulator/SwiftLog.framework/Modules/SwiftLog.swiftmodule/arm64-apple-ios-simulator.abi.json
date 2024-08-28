@@ -98,15 +98,25 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftLog",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alexandreoliveira\/Desktop\/SwiftLogDemo\/SwiftLogDemo\/SwiftLog\/Service.swift",
+      "filePath": "\/Users\/alexandreoliveira\/Developer\/SwiftLog\/SwiftLog\/Service.swift",
       "kind": "StringLiteral",
-      "offset": 160,
+      "offset": 243,
       "length": 68,
       "value": "\"https:\/\/us-central1-mobilesdklogging.cloudfunctions.net\/saveString\""
     }
