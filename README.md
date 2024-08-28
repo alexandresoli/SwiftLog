@@ -41,7 +41,7 @@ import SwiftLog
 
 1. Clone the repository or download the source code.
    ```bash
-   git clone https://github.com/yourusername/SwiftLog.git
+   git clone https://github.com/alexandresoli/SwiftLog.git
    cd SwiftLog
    ```
 
@@ -76,38 +76,19 @@ SwiftLog.saveString("Your log message here") { result in
 
 <!--@START_MENU_TOKEN@-->To generate a `.xcframework` for distribution, use the following steps:
 
-1. Create a shell script named `create_xcframework.sh` in the root of the repository with the following content:
-
-```bash
-#!/bin/bash
-
-# Set the project variables
-FRAMEWORK_NAME="SwiftLog"
-SCHEME_NAME="SwiftLog"
-BUILD_DIR="./build"
-XCFRAMEWORK_DIR="./${FRAMEWORK_NAME}.xcframework"
-
-# Clean up any previous build artifacts
-rm -rf "${BUILD_DIR}"
-rm -rf "${XCFRAMEWORK_DIR}"
-
-# Build for iOS devices
-xcodebuild archive   -scheme "${SCHEME_NAME}"   -configuration Release   -destination "generic/platform=iOS"   -archivePath "${BUILD_DIR}/iOS"   SKIP_INSTALL=NO   BUILD_LIBRARY_FOR_DISTRIBUTION=YES
-
-# Build for iOS simulator
-xcodebuild archive   -scheme "${SCHEME_NAME}"   -configuration Release   -destination "generic/platform=iOS Simulator"   -archivePath "${BUILD_DIR}/iOSSimulator"   SKIP_INSTALL=NO   BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 
 # Create the XCFramework
-xcodebuild -create-xcframework   -framework "${BUILD_DIR}/iOS.xcarchive/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework"   -framework "${BUILD_DIR}/iOSSimulator.xcarchive/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework"   -output "${XCFRAMEWORK_DIR}"
 
-echo "XCFramework created at ${XCFRAMEWORK_DIR}"
-```
-
-2. Make the script executable and run it:
-
+1 - Make the script executable
 ```bash
 chmod +x create_xcframework.sh
 ./create_xcframework.sh
 ```
 
-3. This will generate the `.xcframework` in the root directory of your project.<!--@END_MENU_TOKEN@-->
+2. Run it:
+
+```bash
+./create_xcframework.sh
+```
+ This will generate the `.xcframework` in the root directory of the project.
+ <!--@END_MENU_TOKEN@-->
