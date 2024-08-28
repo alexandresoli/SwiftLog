@@ -4,8 +4,7 @@
 
 <br><br>
 
-
-<img src="./showcase.gif" alt="Showcase" width="300" height="300"/>
+<img src="./showcase.gif" alt="Showcase" width="300"/>
 
 
 ## Overview
