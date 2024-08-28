@@ -17,8 +17,8 @@ class ServiceTests: XCTestCase {
     // MARK: - Setup and Teardown
     override func setUp() {
         super.setUp()
-        session = makeMockSession()
-        sut = makeSUT(session: session)
+        session = createMockSession()
+        sut = createService(session: session)
     }
 
     override func tearDown() {
@@ -29,14 +29,25 @@ class ServiceTests: XCTestCase {
     }
 
     // MARK: - Helper Methods
-    private func makeMockSession() -> URLSession {
+    private func createMockSession() -> URLSession {
         let configuration = URLSessionConfiguration.ephemeral
         configuration.protocolClasses = [MockURLProtocol.self]
         return URLSession(configuration: configuration)
     }
 
-    private func makeSUT(session: URLSession) -> Service {
+    private func createService(session: URLSession) -> Service {
         return Service(session: session)
+    }
+
+    private func validURL() -> URL {
+        guard let url = URL(string: "https://us-central1-mobilesdklogging.cloudfunctions.net/saveString") else {
+            fatalError("Valid URL could not be created.")
+        }
+        return url
+    }
+
+    private func createMockResponse(statusCode: Int) -> HTTPURLResponse {
+        return HTTPURLResponse(url: validURL(), statusCode: statusCode, httpVersion: nil, headerFields: nil)!
     }
 
     // MARK: - Tests
@@ -44,11 +55,7 @@ class ServiceTests: XCTestCase {
     func testSendStringSuccess() {
         // Given
         let mockResponseData = "{\"message\":\"String stored successfully!\"}".data(using: .utf8)
-        let mockURLResponse = HTTPURLResponse(url: URL(string: "https://us-central1-mobilesdklogging.cloudfunctions.net/saveString")!,
-                                              statusCode: 200,
-                                              httpVersion: nil,
-                                              headerFields: nil)
-        
+        let mockURLResponse = createMockResponse(statusCode: 200)
         MockURLProtocol.mockResponse = (mockResponseData, mockURLResponse, nil)
         let expectation = expectation(description: "Service completes successfully")
 
@@ -57,23 +64,19 @@ class ServiceTests: XCTestCase {
             // Then
             switch result {
             case .success():
-                XCTAssertTrue(true, "Expected success but got success.")
+                break
             case .failure(let error):
                 XCTFail("Expected success but got failure with error: \(error)")
             }
             expectation.fulfill()
         }
-        
+
         waitForExpectations(timeout: 5)
     }
 
-    func testSendStringFailure() {
+    func testSendStringFailsWithServerError() {
         // Given
-        let mockURLResponse = HTTPURLResponse(url: URL(string: "https://us-central1-mobilesdklogging.cloudfunctions.net/saveString")!,
-                                              statusCode: 400,
-                                              httpVersion: nil,
-                                              headerFields: nil)
-        
+        let mockURLResponse = createMockResponse(statusCode: 400)
         MockURLProtocol.mockResponse = (nil, mockURLResponse, nil)
         let expectation = expectation(description: "Service fails with server error")
 
@@ -88,14 +91,14 @@ class ServiceTests: XCTestCase {
             }
             expectation.fulfill()
         }
-        
+
         waitForExpectations(timeout: 5)
     }
 
-    func testInvalidURL() {
+    func testServiceFailsWithInvalidURL() {
         // Given
-        let malformedURLString = "https :// invalid-url" // Intentionally invalid URL
-        sut = Service(urlString: malformedURLString, session: session)
+        let invalidURLString = "https :// invalid-url"
+        sut = Service(urlString: invalidURLString, session: session)
         let expectation = expectation(description: "Service fails due to invalid URL")
 
         // When
@@ -103,13 +106,9 @@ class ServiceTests: XCTestCase {
             // Then
             switch result {
             case .success():
-                XCTFail("Expected failure but got success.")
+                XCTFail("Expected failure due to invalid URL, but got success.")
             case .failure(let error):
-                if case Service.ServiceError.invalidURL = error {
-                    XCTAssertTrue(true, "Received expected invalidURL error.")
-                } else {
-                    XCTFail("Expected invalidURL error but got: \(error)")
-                }
+                XCTAssertEqual(error as? Service.ServiceError, .invalidURL, "Expected invalidURL error but got: \(error)")
             }
             expectation.fulfill()
         }

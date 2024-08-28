@@ -27,16 +27,13 @@ class SwiftLogTests: XCTestCase {
     // MARK: - Tests
 
     func testSaveStringSuccess() {
-        // Given
         let expectation = self.expectation(description: "SwiftLog completes successfully")
         let mockString = "Test string"
 
-        // When
         sut.saveString(mockString) { result in
-            // Then
             switch result {
             case .success():
-                XCTAssertTrue(true, "Expected success but got success.")
+                break
             case .failure(let error):
                 XCTFail("Expected success but got failure with error: \(error)")
             }
@@ -46,14 +43,11 @@ class SwiftLogTests: XCTestCase {
         waitForExpectations(timeout: 5)
     }
     
-    func testSaveStringFailure() {
-        // Given
-        let expectation = self.expectation(description: "SwiftLog fails with invalid input")
+    func testSaveStringFailsWithEmptyInput() {
+        let expectation = self.expectation(description: "SwiftLog fails with empty input")
         let invalidString = "" // Invalid input for testing
 
-        // When
         sut.saveString(invalidString) { result in
-            // Then
             switch result {
             case .success():
                 XCTFail("Expected failure but got success.")

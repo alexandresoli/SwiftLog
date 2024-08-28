@@ -11,9 +11,6 @@
 		96102E1C2C7F85F8003F2EB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E1B2C7F85F8003F2EB4 /* ContentView.swift */; };
 		96102E1E2C7F85FB003F2EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96102E1D2C7F85FB003F2EB4 /* Assets.xcassets */; };
 		96102E212C7F85FB003F2EB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96102E202C7F85FB003F2EB4 /* Preview Assets.xcassets */; };
-		96102E2B2C7F85FB003F2EB4 /* SwiftLogDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E2A2C7F85FB003F2EB4 /* SwiftLogDemoTests.swift */; };
-		96102E352C7F85FB003F2EB4 /* SwiftLogDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E342C7F85FB003F2EB4 /* SwiftLogDemoUITests.swift */; };
-		96102E372C7F85FB003F2EB4 /* SwiftLogDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E362C7F85FB003F2EB4 /* SwiftLogDemoUITestsLaunchTests.swift */; };
 		96102E4C2C7F8622003F2EB4 /* SwiftLog.docc in Sources */ = {isa = PBXBuildFile; fileRef = 96102E4B2C7F8622003F2EB4 /* SwiftLog.docc */; };
 		96102E522C7F8622003F2EB4 /* SwiftLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96102E482C7F8622003F2EB4 /* SwiftLog.framework */; };
 		96102E592C7F8622003F2EB4 /* SwiftLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E582C7F8622003F2EB4 /* SwiftLogTests.swift */; };
@@ -25,24 +22,10 @@
 		96102E6B2C7F89DA003F2EB4 /* SnackbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E6A2C7F89DA003F2EB4 /* SnackbarView.swift */; };
 		96102E6D2C7F8AB5003F2EB4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E6C2C7F8AB5003F2EB4 /* SplashScreenView.swift */; };
 		96102E722C7F8F83003F2EB4 /* ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E712C7F8F83003F2EB4 /* ServiceTests.swift */; };
-		96102E742C7F9037003F2EB4 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E732C7F9037003F2EB4 /* MockURLProtocol.swift */; };
+		967069352C7FADF30089421C /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96102E732C7F9037003F2EB4 /* MockURLProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		96102E272C7F85FB003F2EB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96102E0E2C7F85F8003F2EB4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96102E152C7F85F8003F2EB4;
-			remoteInfo = SwiftLogDemo;
-		};
-		96102E312C7F85FB003F2EB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96102E0E2C7F85F8003F2EB4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96102E152C7F85F8003F2EB4;
-			remoteInfo = SwiftLogDemo;
-		};
 		96102E532C7F8622003F2EB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 96102E0E2C7F85F8003F2EB4 /* Project object */;
@@ -86,11 +69,6 @@
 		96102E1B2C7F85F8003F2EB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96102E1D2C7F85FB003F2EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96102E202C7F85FB003F2EB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		96102E262C7F85FB003F2EB4 /* SwiftLogDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLogDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96102E2A2C7F85FB003F2EB4 /* SwiftLogDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLogDemoTests.swift; sourceTree = "<group>"; };
-		96102E302C7F85FB003F2EB4 /* SwiftLogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96102E342C7F85FB003F2EB4 /* SwiftLogDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLogDemoUITests.swift; sourceTree = "<group>"; };
-		96102E362C7F85FB003F2EB4 /* SwiftLogDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLogDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		96102E482C7F8622003F2EB4 /* SwiftLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96102E4A2C7F8622003F2EB4 /* SwiftLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLog.h; sourceTree = "<group>"; };
 		96102E4B2C7F8622003F2EB4 /* SwiftLog.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftLog.docc; sourceTree = "<group>"; };
@@ -110,20 +88,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96102E5D2C7F8622003F2EB4 /* SwiftLog.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96102E232C7F85FB003F2EB4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96102E2D2C7F85FB003F2EB4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				96102E182C7F85F8003F2EB4 /* SwiftLogDemo */,
-				96102E292C7F85FB003F2EB4 /* SwiftLogDemoTests */,
-				96102E332C7F85FB003F2EB4 /* SwiftLogDemoUITests */,
 				96102E492C7F8622003F2EB4 /* SwiftLog */,
 				96102E572C7F8622003F2EB4 /* SwiftLogTests */,
 				96102E172C7F85F8003F2EB4 /* Products */,
@@ -161,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				96102E162C7F85F8003F2EB4 /* SwiftLogDemo.app */,
-				96102E262C7F85FB003F2EB4 /* SwiftLogDemoTests.xctest */,
-				96102E302C7F85FB003F2EB4 /* SwiftLogDemoUITests.xctest */,
 				96102E482C7F8622003F2EB4 /* SwiftLog.framework */,
 				96102E512C7F8622003F2EB4 /* SwiftLogTests.xctest */,
 			);
@@ -190,23 +150,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		96102E292C7F85FB003F2EB4 /* SwiftLogDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				96102E2A2C7F85FB003F2EB4 /* SwiftLogDemoTests.swift */,
-			);
-			path = SwiftLogDemoTests;
-			sourceTree = "<group>";
-		};
-		96102E332C7F85FB003F2EB4 /* SwiftLogDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				96102E342C7F85FB003F2EB4 /* SwiftLogDemoUITests.swift */,
-				96102E362C7F85FB003F2EB4 /* SwiftLogDemoUITestsLaunchTests.swift */,
-			);
-			path = SwiftLogDemoUITests;
-			sourceTree = "<group>";
-		};
 		96102E492C7F8622003F2EB4 /* SwiftLog */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,7 +157,6 @@
 				96102E4B2C7F8622003F2EB4 /* SwiftLog.docc */,
 				96102E662C7F863A003F2EB4 /* Service.swift */,
 				96102E682C7F8958003F2EB4 /* SwiftLog.swift */,
-				96102E732C7F9037003F2EB4 /* MockURLProtocol.swift */,
 			);
 			path = SwiftLog;
 			sourceTree = "<group>";
@@ -222,6 +164,7 @@
 		96102E572C7F8622003F2EB4 /* SwiftLogTests */ = {
 			isa = PBXGroup;
 			children = (
+				96102E732C7F9037003F2EB4 /* MockURLProtocol.swift */,
 				96102E582C7F8622003F2EB4 /* SwiftLogTests.swift */,
 				96102E712C7F8F83003F2EB4 /* ServiceTests.swift */,
 			);
@@ -260,42 +203,6 @@
 			productName = SwiftLogDemo;
 			productReference = 96102E162C7F85F8003F2EB4 /* SwiftLogDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		96102E252C7F85FB003F2EB4 /* SwiftLogDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96102E3D2C7F85FB003F2EB4 /* Build configuration list for PBXNativeTarget "SwiftLogDemoTests" */;
-			buildPhases = (
-				96102E222C7F85FB003F2EB4 /* Sources */,
-				96102E232C7F85FB003F2EB4 /* Frameworks */,
-				96102E242C7F85FB003F2EB4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96102E282C7F85FB003F2EB4 /* PBXTargetDependency */,
-			);
-			name = SwiftLogDemoTests;
-			productName = SwiftLogDemoTests;
-			productReference = 96102E262C7F85FB003F2EB4 /* SwiftLogDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		96102E2F2C7F85FB003F2EB4 /* SwiftLogDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96102E402C7F85FB003F2EB4 /* Build configuration list for PBXNativeTarget "SwiftLogDemoUITests" */;
-			buildPhases = (
-				96102E2C2C7F85FB003F2EB4 /* Sources */,
-				96102E2D2C7F85FB003F2EB4 /* Frameworks */,
-				96102E2E2C7F85FB003F2EB4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96102E322C7F85FB003F2EB4 /* PBXTargetDependency */,
-			);
-			name = SwiftLogDemoUITests;
-			productName = SwiftLogDemoUITests;
-			productReference = 96102E302C7F85FB003F2EB4 /* SwiftLogDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		96102E472C7F8622003F2EB4 /* SwiftLog */ = {
 			isa = PBXNativeTarget;
@@ -347,14 +254,6 @@
 					96102E152C7F85F8003F2EB4 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					96102E252C7F85FB003F2EB4 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 96102E152C7F85F8003F2EB4;
-					};
-					96102E2F2C7F85FB003F2EB4 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 96102E152C7F85F8003F2EB4;
-					};
 					96102E472C7F8622003F2EB4 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -378,8 +277,6 @@
 			projectRoot = "";
 			targets = (
 				96102E152C7F85F8003F2EB4 /* SwiftLogDemo */,
-				96102E252C7F85FB003F2EB4 /* SwiftLogDemoTests */,
-				96102E2F2C7F85FB003F2EB4 /* SwiftLogDemoUITests */,
 				96102E472C7F8622003F2EB4 /* SwiftLog */,
 				96102E502C7F8622003F2EB4 /* SwiftLogTests */,
 			);
@@ -393,20 +290,6 @@
 			files = (
 				96102E212C7F85FB003F2EB4 /* Preview Assets.xcassets in Resources */,
 				96102E1E2C7F85FB003F2EB4 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96102E242C7F85FB003F2EB4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96102E2E2C7F85FB003F2EB4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,23 +321,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96102E222C7F85FB003F2EB4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96102E2B2C7F85FB003F2EB4 /* SwiftLogDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96102E2C2C7F85FB003F2EB4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96102E372C7F85FB003F2EB4 /* SwiftLogDemoUITestsLaunchTests.swift in Sources */,
-				96102E352C7F85FB003F2EB4 /* SwiftLogDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96102E442C7F8622003F2EB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,7 +328,6 @@
 				96102E692C7F8958003F2EB4 /* SwiftLog.swift in Sources */,
 				96102E4C2C7F8622003F2EB4 /* SwiftLog.docc in Sources */,
 				96102E672C7F863A003F2EB4 /* Service.swift in Sources */,
-				96102E742C7F9037003F2EB4 /* MockURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967069352C7FADF30089421C /* MockURLProtocol.swift in Sources */,
 				96102E592C7F8622003F2EB4 /* SwiftLogTests.swift in Sources */,
 				96102E722C7F8F83003F2EB4 /* ServiceTests.swift in Sources */,
 			);
@@ -478,16 +344,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96102E282C7F85FB003F2EB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96102E152C7F85F8003F2EB4 /* SwiftLogDemo */;
-			targetProxy = 96102E272C7F85FB003F2EB4 /* PBXContainerItemProxy */;
-		};
-		96102E322C7F85FB003F2EB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96102E152C7F85F8003F2EB4 /* SwiftLogDemo */;
-			targetProxy = 96102E312C7F85FB003F2EB4 /* PBXContainerItemProxy */;
-		};
 		96102E542C7F8622003F2EB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 96102E472C7F8622003F2EB4 /* SwiftLog */;
@@ -683,78 +539,6 @@
 			};
 			name = Release;
 		};
-		96102E3E2C7F85FB003F2EB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexandresoli.SwiftLogDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLogDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftLogDemo";
-			};
-			name = Debug;
-		};
-		96102E3F2C7F85FB003F2EB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexandresoli.SwiftLogDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLogDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftLogDemo";
-			};
-			name = Release;
-		};
-		96102E412C7F85FB003F2EB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexandresoli.SwiftLogDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftLogDemo;
-			};
-			name = Debug;
-		};
-		96102E422C7F85FB003F2EB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexandresoli.SwiftLogDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftLogDemo;
-			};
-			name = Release;
-		};
 		96102E602C7F8622003F2EB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -877,24 +661,6 @@
 			buildConfigurations = (
 				96102E3B2C7F85FB003F2EB4 /* Debug */,
 				96102E3C2C7F85FB003F2EB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96102E3D2C7F85FB003F2EB4 /* Build configuration list for PBXNativeTarget "SwiftLogDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96102E3E2C7F85FB003F2EB4 /* Debug */,
-				96102E3F2C7F85FB003F2EB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96102E402C7F85FB003F2EB4 /* Build configuration list for PBXNativeTarget "SwiftLogDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96102E412C7F85FB003F2EB4 /* Debug */,
-				96102E422C7F85FB003F2EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
