@@ -1,0 +1,48 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/alexandreoliveira/Library/Developer/Xcode/DerivedData/SwiftLogDemo-fgradrdpptopdcfuynnfkkewlpuk/Build/Intermediates.noindex/ArchiveIntermediates/SwiftLog/InstallationBuildProductsLocation/Library/Frameworks/SwiftLog.framework/SwiftLog'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x2E66D, size: 0x8, addend: 0x0, symName: _SwiftLogVersionString, symObjAddr: 0x0, symBinAddr: 0x50C0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x2E6A2, size: 0x8, addend: 0x0, symName: _SwiftLogVersionNumber, symObjAddr: 0x30, symBinAddr: 0x50F0, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x2E707, size: 0x8, addend: 0x0, symName: '_$s8SwiftLogAAC7service33_8EF62890E51957FB114557DFA1DBB00ELLAA7ServiceCvpZ', symObjAddr: 0x128, symBinAddr: 0xC178, symSize: 0x0 }
+  - { offsetInCU: 0x96, offset: 0x2E74E, size: 0x8, addend: 0x0, symName: '_$s8SwiftLogAAC7service33_8EF62890E51957FB114557DFA1DBB00ELL_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x48 }
+  - { offsetInCU: 0x150, offset: 0x2E808, size: 0x8, addend: 0x0, symName: '_$s8SwiftLogAACMa', symObjAddr: 0xDC, symBinAddr: 0x40DC, symSize: 0x20 }
+  - { offsetInCU: 0x256, offset: 0x2E90E, size: 0x8, addend: 0x0, symName: '_$s8SwiftLogAAC10saveString_10completionySS_ys6ResultOyyts5Error_pGctFZ', symObjAddr: 0x48, symBinAddr: 0x4048, symSize: 0x7C }
+  - { offsetInCU: 0x2AA, offset: 0x2E962, size: 0x8, addend: 0x0, symName: '_$s8SwiftLogAACfd', symObjAddr: 0xC4, symBinAddr: 0x40C4, symSize: 0x8 }
+  - { offsetInCU: 0x2CF, offset: 0x2E987, size: 0x8, addend: 0x0, symName: '_$s8SwiftLogAACfD', symObjAddr: 0xCC, symBinAddr: 0x40CC, symSize: 0x10 }
+  - { offsetInCU: 0x2B, offset: 0x2E9EB, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC10sendString_10completionySS_ys6ResultOyyts5Error_pGctF', symObjAddr: 0x0, symBinAddr: 0x4108, symSize: 0x4EC }
+  - { offsetInCU: 0xFE, offset: 0x2EABE, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x69C, symBinAddr: 0x47A4, symSize: 0x14 }
+  - { offsetInCU: 0x17C, offset: 0x2EB3C, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOSHAASH9hashValueSivgTW', symObjAddr: 0x6B0, symBinAddr: 0x47B8, symSize: 0x44 }
+  - { offsetInCU: 0x25F, offset: 0x2EC1F, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x6F4, symBinAddr: 0x47FC, symSize: 0x28 }
+  - { offsetInCU: 0x2FF, offset: 0x2ECBF, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIeghggg_So6NSDataCSgAGSo7NSErrorCSgIeyBhyyy_TR', symObjAddr: 0x5EC, symBinAddr: 0x46F4, symSize: 0xB0 }
+  - { offsetInCU: 0x337, offset: 0x2ECF7, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceCMa', symObjAddr: 0x790, symBinAddr: 0x4898, symSize: 0x20 }
+  - { offsetInCU: 0x34B, offset: 0x2ED0B, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x7B0, symBinAddr: 0x48B8, symSize: 0x40 }
+  - { offsetInCU: 0x35F, offset: 0x2ED1F, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOh', symObjAddr: 0x7F0, symBinAddr: 0x48F8, symSize: 0x40 }
+  - { offsetInCU: 0x373, offset: 0x2ED33, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOAEs0D0AAWl', symObjAddr: 0x830, symBinAddr: 0x4938, symSize: 0x44 }
+  - { offsetInCU: 0x4C9, offset: 0x2EE89, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC10sendString_10completionySS_ys6ResultOyyts5Error_pGctFy10Foundation4DataVSg_So13NSURLResponseCSgsAH_pSgtYbcfU_TA', symObjAddr: 0xAD8, symBinAddr: 0x4BE0, symSize: 0x8 }
+  - { offsetInCU: 0x4DD, offset: 0x2EE9D, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xAE0, symBinAddr: 0x4BE8, symSize: 0x10 }
+  - { offsetInCU: 0x4F1, offset: 0x2EEB1, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xAF0, symBinAddr: 0x4BF8, symSize: 0x8 }
+  - { offsetInCU: 0x505, offset: 0x2EEC5, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0xAF8, symBinAddr: 0x4C00, symSize: 0x14 }
+  - { offsetInCU: 0x519, offset: 0x2EED9, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0xB0C, symBinAddr: 0x4C14, symSize: 0x44 }
+  - { offsetInCU: 0x52D, offset: 0x2EEED, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0xB50, symBinAddr: 0x4C58, symSize: 0xC }
+  - { offsetInCU: 0x541, offset: 0x2EF01, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0xB5C, symBinAddr: 0x4C64, symSize: 0x4 }
+  - { offsetInCU: 0x555, offset: 0x2EF15, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOwet', symObjAddr: 0xB60, symBinAddr: 0x4C68, symSize: 0x90 }
+  - { offsetInCU: 0x569, offset: 0x2EF29, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOwst', symObjAddr: 0xBF0, symBinAddr: 0x4CF8, symSize: 0xBC }
+  - { offsetInCU: 0x57D, offset: 0x2EF3D, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOwug', symObjAddr: 0xCAC, symBinAddr: 0x4DB4, symSize: 0x8 }
+  - { offsetInCU: 0x591, offset: 0x2EF51, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOwup', symObjAddr: 0xCB4, symBinAddr: 0x4DBC, symSize: 0x4 }
+  - { offsetInCU: 0x5A5, offset: 0x2EF65, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOwui', symObjAddr: 0xCB8, symBinAddr: 0x4DC0, symSize: 0x8 }
+  - { offsetInCU: 0x5B9, offset: 0x2EF79, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOMa', symObjAddr: 0xCC0, symBinAddr: 0x4DC8, symSize: 0x10 }
+  - { offsetInCU: 0x5CD, offset: 0x2EF8D, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOSHAASQWb', symObjAddr: 0xCD0, symBinAddr: 0x4DD8, symSize: 0x4 }
+  - { offsetInCU: 0x5E1, offset: 0x2EFA1, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOAESQAAWl', symObjAddr: 0xCD4, symBinAddr: 0x4DDC, symSize: 0x44 }
+  - { offsetInCU: 0x6CA, offset: 0x2F08A, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x71C, symBinAddr: 0x4824, symSize: 0x40 }
+  - { offsetInCU: 0x766, offset: 0x2F126, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOs0D0AAsAFP7_domainSSvgTW', symObjAddr: 0x75C, symBinAddr: 0x4864, symSize: 0x4 }
+  - { offsetInCU: 0x782, offset: 0x2F142, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOs0D0AAsAFP5_codeSivgTW', symObjAddr: 0x760, symBinAddr: 0x4868, symSize: 0x4 }
+  - { offsetInCU: 0x79E, offset: 0x2F15E, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOs0D0AAsAFP9_userInfoyXlSgvgTW', symObjAddr: 0x764, symBinAddr: 0x486C, symSize: 0x4 }
+  - { offsetInCU: 0x7BA, offset: 0x2F17A, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC0C5ErrorOs0D0AAsAFP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x768, symBinAddr: 0x4870, symSize: 0x4 }
+  - { offsetInCU: 0x800, offset: 0x2F1C0, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTgm5Tf4g_n', symObjAddr: 0x9B8, symBinAddr: 0x4AC0, symSize: 0xFC }
+  - { offsetInCU: 0xA68, offset: 0x2F428, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC10sendString_10completionySS_ys6ResultOyyts5Error_pGctF', symObjAddr: 0x0, symBinAddr: 0x4108, symSize: 0x4EC }
+  - { offsetInCU: 0xBB0, offset: 0x2F570, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceC10sendString_10completionySS_ys6ResultOyyts5Error_pGctFy10Foundation4DataVSg_So13NSURLResponseCSgsAH_pSgtYbcfU_', symObjAddr: 0x4EC, symBinAddr: 0x45F4, symSize: 0x100 }
+  - { offsetInCU: 0xCDF, offset: 0x2F69F, size: 0x8, addend: 0x0, symName: '_$s8SwiftLog7ServiceCfD', symObjAddr: 0x76C, symBinAddr: 0x4874, symSize: 0x24 }
+  - { offsetInCU: 0xD2D, offset: 0x2F6ED, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x874, symBinAddr: 0x497C, symSize: 0x64 }
+  - { offsetInCU: 0xD78, offset: 0x2F738, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x8D8, symBinAddr: 0x49E0, symSize: 0xE0 }
+...
